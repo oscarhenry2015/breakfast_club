@@ -14,7 +14,7 @@ az deployment group create \
   --parameters parameters/postgreSQL_parameters.json \
   --parameters administratorLoginPassword="P@ss1234"
 
-# Deploy WebApp to Azure
+# Deploy WebApp and App Service Plan to Azure
 az deployment group create \
   --name WebAppDeployment \
   --resource-group Breakfast_Club_RG \
